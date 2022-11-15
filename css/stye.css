@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+header {
+    background-color: red;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+div {
+    background-color: green;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left {
+    border-style: solid;
+    flex: 1 1 auto;
+    max-width: 30%;
+}
+
+.main {
+    border-style: solid;
+    flex: 1 1 auto;
+    max-width: 30%;
+}
+
+.right {
+    border-style: solid;
+    flex: 1 1 auto;
+    max-width: 30%;
+}
+
+footer {
+    background-color: blue;
+    width: 100%;
+}
