@@ -170,9 +170,11 @@ header .bottom .right div {
 .actions .action {
     background-color: #3882f6;
     margin: 50px 10%;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .actions .action .left {
@@ -194,6 +196,7 @@ header .bottom .right div {
     border-color: white;
     border-radius: 5px;
     color: #f9faf8;
+    margin-right: 40px;
 }
 
 /*----FOOTER----*/
