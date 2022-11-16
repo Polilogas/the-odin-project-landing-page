@@ -9,6 +9,8 @@ body {
     flex-direction: row;
 }
 
+/*----HEADER----*/
+
 header {
     background-color: #1F2937;
     font-size: 44px;
@@ -93,6 +95,8 @@ header .bottom .right div {
     height: 200px;
 }
 
+/*----INFOS----*/
+
 .infos {
     width: 100%;
     padding: 0% 10%;
@@ -131,20 +135,68 @@ header .bottom .right div {
     text-align: center;
 }
 
+/*----QUOTE----*/
+
 .quote {
     background-color: #e5e7eb;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px 10%;
 }
 
 .quote article {
     font-size: 36px;
-    font-weight:100;
+    font-weight: 100;
     font-style: italic;
     color: #1F2937;
+    max-width: 750px;
 }
 
-.action {
-    background-color: #3882f6;
+.quote article p {
+    font-weight: bold;
+    text-align: right;
 }
+
+/*----ACTION----*/
+
+.actions {
+    color: #f9faf8;
+    width: 100%;
+}
+
+.actions .action {
+    background-color: #3882f6;
+    margin: 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.actions .action .left {
+    padding-left: 40px;
+}
+
+.actions .action .left .main-text{
+    font-weight: bold;
+}
+
+.actions .action .right {
+    padding-left: 70px;
+}
+
+.actions .action .right button {
+    background-color: #3882f6;
+    padding: 5px 20px;
+    border-style:groove;
+    border-color: white;
+    border-radius: 5px;
+    color: #f9faf8;
+}
+
+/*----FOOTER----*/
 
 footer {
     background-color: #1F2937;
