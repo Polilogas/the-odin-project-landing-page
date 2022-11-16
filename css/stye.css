@@ -204,4 +204,10 @@ header .bottom .right div {
 footer {
     background-color: #1F2937;
     width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    font-weight: 100;
 }
